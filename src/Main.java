@@ -15,6 +15,14 @@ public class Main {
         System.out.println(b);
         double t = 4.88888888;
         System.out.println(t);
+        double weightFirst = 78.2;
+        double weightSecond = 82.7;
+        double general = weightFirst + weightSecond;
+        System.out.println ( "Общий вес " + general + " кг");
+        double difference = weightSecond - weightFirst;
+        System.out.println ("Разница между весом " + difference + " кг");
+
+
 
     }
 }

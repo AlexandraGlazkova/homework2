@@ -21,8 +21,26 @@ public class Main {
         System.out.println ( "Общий вес " + general + " кг");
         double difference = weightSecond - weightFirst;
         System.out.println ("Разница между весом " + difference + " кг");
-
-
+int bananas = 5;
+int oneBananas = 80;
+int bananaWeight = oneBananas * bananas;
+System.out.println("вес бананов "+ bananaWeight + " г");
+int milk = 200;
+int oneHundredMilk = 105;
+int milkweight = milk * oneHundredMilk / 100;
+System.out.println("Вес молока "+ milkweight + " г");
+int iceCream = 2;
+int oneIceCream = 100;
+int iceCreamWeight = iceCream * oneIceCream;
+System.out.println( "Вес мороженного "+ iceCreamWeight+ " г");
+int egg = 4;
+int oneEgg = 70;
+int eggWeidht = egg * oneEgg;
+        System.out.println ("вес яиц " + eggWeidht + " г");
+        float breakfastWeight = bananaWeight + milkweight + iceCreamWeight + eggWeidht;
+        System.out.println ("Вес завтрака "+ breakfastWeight + " г");
+float breakfastWeightInKg = breakfastWeight / 1000;
+        System.out.println ("Вес затрака "+ breakfastWeightInKg + " кг");
 
     }
 }

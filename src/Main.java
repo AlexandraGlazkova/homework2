@@ -41,6 +41,17 @@ int eggWeidht = egg * oneEgg;
         System.out.println ("Вес завтрака "+ breakfastWeight + " г");
 float breakfastWeightInKg = breakfastWeight / 1000;
         System.out.println ("Вес затрака "+ breakfastWeightInKg + " кг");
-
+int reset = 7;
+int resetIng = reset * 1000;
+int resetOneDay = 250;
+int day = resetIng / resetOneDay;
+System.out.println( "Если спорсмен будет терять по 250г в день, то уйдет " + day + " дн");
+int resetDay = 500;
+int dayFiveHundred = resetIng / resetDay;
+System.out.println("Если спорсмен будет терять по 500 гр в день, то уйдет "+ dayFiveHundred + " дн");
+int maxReset = resetOneDay + resetDay;
+   int average = maxReset / 2;
+   var averageDay = resetIng / average;
+   System.out.println("В среднем потребуется "+ averageDay + " дн");
     }
 }
